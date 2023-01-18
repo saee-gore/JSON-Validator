@@ -63,10 +63,11 @@ def main():
             latestError = "\n Error at "+indexErr +  ". check data for " + " " + str(ExcelData[index]['companyCategory'])+" and "+jsoncompanyCategory
             Errors = Errors+latestError+"\n"
     
-    if len(Errors)==0:
-        print("Success! All data is good :)")
-    else:
-        print("All nodes are goood except:"+Errors)
+    with open("Results.txt","w") as f:
+        if len(Errors)==0:
+            f.write("Success! All data is good :)")
+        else:
+            f.write("All nodes are goood except:"+Errors)
 
 
 if __name__ == "__main__":
