@@ -1,0 +1,12 @@
+[
+    {
+        "companyId": 100,
+        "companyName": "Apple",
+        "companyCategory": "MNC"
+    },
+    {
+        "companyId": 101,
+        "companyName": "Amazon",
+        "companyCategory": "MNC"
+    }
+]
