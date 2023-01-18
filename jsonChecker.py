@@ -1,4 +1,3 @@
-# Validated_Data is the data we are validating against!!
 import json
 import copy
 from openpyxl import load_workbook
